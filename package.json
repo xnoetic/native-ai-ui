@@ -2,10 +2,10 @@
   "name": "native-ai-ui",
   "version": "0.3.0",
   "private": true,
-  "homepage": "https://eanzhao-os.github.io/native-ai-ui",
+  "homepage": "https://docs.xnoetic.com/native-ai-ui",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eanzhao-os/native-ai-ui.git"
+    "url": "https://github.com/xnoetic/native-ai-ui.git"
   },
   "scripts": {
     "dev": "next dev",

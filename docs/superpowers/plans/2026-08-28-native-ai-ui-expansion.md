@@ -888,7 +888,7 @@ Keep the body under 500 words and use imperative language. Required sequence:
 4. read `native-adaptation.md` only for SwiftUI, Compose, desktop-native, or TUI;
 5. inspect the HTML preview only when a visual reference materially helps;
 6. for React, install exact items from the current
-   `eanzhao-os/native-ai-ui` registry;
+   `xnoetic/native-ai-ui` registry;
 7. verify token-only color, dark mode, keyboard use, reduced motion, live
    status, bilingual copy when requested, and destructive-action confirmation.
 
@@ -918,7 +918,7 @@ In `native-adaptation.md`, add:
 
 Create `component-catalog.md` with all 44 exact registry names in the eight
 showcase categories. Each row contains display name, best-use case, and the
-exact `https://eanzhao-os.github.io/native-ai-ui/r/<name>.json` URL. Include a
+exact `https://docs.xnoetic.com/native-ai-ui/r/<name>.json` URL. Include a
 table of contents because the file exceeds 100 lines.
 
 Use this exact catalog:
@@ -1004,7 +1004,7 @@ Runtime. Replace the showcase statistic “0 runtime deps” with “3 optional 
 / “3 个可选依赖”. Set:
 
 ```json
-"homepage": "https://eanzhao-os.github.io/native-ai-ui"
+"homepage": "https://docs.xnoetic.com/native-ai-ui"
 ```
 
 - [ ] **Step 2: Add exact Skill installation instructions**

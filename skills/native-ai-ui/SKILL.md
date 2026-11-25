@@ -14,7 +14,7 @@ Design AI interfaces that expose what the system is doing, settle into quiet sum
 3. Read [component-catalog.md](references/component-catalog.md) and choose the smallest set of patterns that communicates those states honestly.
 4. Read [native-adaptation.md](references/native-adaptation.md) completely only for SwiftUI, Jetpack Compose, desktop-native, or terminal work.
 5. Inspect [native-chat.html](assets/preview/native-chat.html) only when a visual reference materially helps.
-6. For React, install exact items from the current `eanzhao-os/native-ai-ui` registry URLs in the catalog. Treat demos as behavioral references and connect them to real application state.
+6. For React, install exact items from the current `xnoetic/native-ai-ui` registry URLs in the catalog. Treat demos as behavioral references and connect them to real application state.
 
 ## Implementation Contract
 

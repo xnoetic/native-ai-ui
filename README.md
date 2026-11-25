@@ -1,6 +1,6 @@
 # AI-Native React & Vanilla Components
 
-> **Live Showcase**: [https://eanzhao-os.github.io/native-ai-ui/](https://eanzhao-os.github.io/native-ai-ui/) (Supports instant React / Vanilla Web Components toggling)
+> **Live Showcase**: [https://docs.xnoetic.com/native-ai-ui/](https://docs.xnoetic.com/native-ai-ui/) (Supports instant React / Vanilla Web Components toggling)
 
 44 crafted primitives for AI-native interfaces — loading and thinking states, streaming
 text, attachment queues, approval flows, agent teams, message branches, turn lifecycles,
@@ -15,7 +15,7 @@ Every React component is a self-contained `.tsx` file with no shared runtime bey
 a set of design tokens:
 
 ```bash
-npx shadcn@latest add https://raw.githubusercontent.com/eanzhao-os/native-ai-ui/main/public/r/records-table.json
+npx shadcn@latest add https://raw.githubusercontent.com/xnoetic/native-ai-ui/main/public/r/records-table.json
 ```
 
 ### Vanilla ES Modules / Web Components (Zero Build)
@@ -23,8 +23,8 @@ npx shadcn@latest add https://raw.githubusercontent.com/eanzhao-os/native-ai-ui/
 Load the design tokens and standard custom elements directly in plain HTML, Django, Rails, Vue, or Svelte:
 
 ```html
-<link rel="stylesheet" href="https://eanzhao-os.github.io/native-ai-ui/vanilla/tokens.css">
-<script type="module" src="https://eanzhao-os.github.io/native-ai-ui/vanilla/index.js"></script>
+<link rel="stylesheet" href="https://docs.xnoetic.com/native-ai-ui/vanilla/tokens.css">
+<script type="module" src="https://docs.xnoetic.com/native-ai-ui/vanilla/index.js"></script>
 
 <!-- Use standard custom element tags -->
 <nai-loading-state variant="Drive" lang="zh"></nai-loading-state>

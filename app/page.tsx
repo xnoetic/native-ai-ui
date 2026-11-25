@@ -18,7 +18,7 @@ import {
 import VanillaDemoWrapper from "./vanilla-demo-wrapper";
 import { ALL_COMPONENTS, CATEGORIES, type Framework } from "./component-catalog";
 
-const REGISTRY_BASE = "https://eanzhao-os.github.io/native-ai-ui/r";
+const REGISTRY_BASE = "https://docs.xnoetic.com/native-ai-ui/r";
 
 function CopyButton({ text, zh, className = "", title }: { text: string; zh: boolean; className?: string; title?: string }) {
   const [copied, setCopied] = useState(false);
@@ -290,7 +290,7 @@ function ShowcaseContent() {
         {/* Sidebar Footer */}
         <div className="border-t border-line p-3 flex items-center justify-between text-[11px] text-ink-3 bg-inset/40">
           <a
-            href="https://github.com/eanzhao-os/native-ai-ui"
+            href="https://github.com/xnoetic/native-ai-ui"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-1.5 text-ink-2 hover:text-ink transition-colors cursor-pointer"
@@ -458,7 +458,7 @@ function ShowcaseContent() {
                     text={
                       globalFramework === "react"
                         ? `npx shadcn@latest add ${REGISTRY_BASE}/chat.json`
-                        : `<script type="module" src="https://eanzhao-os.github.io/native-ai-ui/vanilla/index.js"></script>`
+                        : `<script type="module" src="https://docs.xnoetic.com/native-ai-ui/vanilla/index.js"></script>`
                     }
                     className="!border-tooltip-border !bg-transparent !text-tooltip-muted hover:!text-tooltip-fg shrink-0"
                   />
@@ -474,7 +474,7 @@ function ShowcaseContent() {
                   ) : (
                     <div className="flex items-center gap-2">
                       <span className="text-tooltip-muted select-none">&lt;&gt;</span>
-                      <code>&lt;script type="module" src="https://eanzhao-os.github.io/native-ai-ui/vanilla/index.js"&gt;&lt;/script&gt;</code>
+                      <code>&lt;script type="module" src="https://docs.xnoetic.com/native-ai-ui/vanilla/index.js"&gt;&lt;/script&gt;</code>
                     </div>
                   )}
                 </div>
@@ -483,7 +483,7 @@ function ShowcaseContent() {
               {/* Action row */}
               <div className="mt-3 flex items-center gap-3">
                 <a
-                  href="https://github.com/eanzhao-os/native-ai-ui"
+                  href="https://github.com/xnoetic/native-ai-ui"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center gap-1.5 rounded-control border border-line bg-surface px-3 py-1.5 text-[12px] font-medium text-ink shadow-btn transition-colors hover:bg-hover cursor-pointer"
@@ -664,7 +664,7 @@ function ShowcaseContent() {
                   <span className="text-[10.5px] font-semibold uppercase tracking-wider text-ink-3">
                     {zh ? "资源" : "Resources"}
                   </span>
-                  <a href="https://github.com/eanzhao-os/native-ai-ui" target="_blank" rel="noreferrer" className="text-ink-2 hover:text-ink transition-colors">GitHub</a>
+                  <a href="https://github.com/xnoetic/native-ai-ui" target="_blank" rel="noreferrer" className="text-ink-2 hover:text-ink transition-colors">GitHub</a>
                   <a href="https://github.com/koishijs/cordis" target="_blank" rel="noreferrer" className="text-ink-2 hover:text-ink transition-colors">Cordis</a>
                   <a href="https://kumo-ui.com" target="_blank" rel="noreferrer" className="text-ink-2 hover:text-ink transition-colors">Kumo UI</a>
                 </div>
@@ -672,11 +672,11 @@ function ShowcaseContent() {
                   <span className="text-[10.5px] font-semibold uppercase tracking-wider text-ink-3">
                     {zh ? "开始" : "Get started"}
                   </span>
-                  <a href="https://github.com/eanzhao-os/native-ai-ui#copying-by-hand" target="_blank" rel="noreferrer" className="text-ink-2 hover:text-ink transition-colors">
+                  <a href="https://github.com/xnoetic/native-ai-ui#copying-by-hand" target="_blank" rel="noreferrer" className="text-ink-2 hover:text-ink transition-colors">
                     {zh ? "手动复制" : "Copy by hand"}
                   </a>
-                  <a href="https://github.com/eanzhao-os/native-ai-ui#the-registry" target="_blank" rel="noreferrer" className="text-ink-2 hover:text-ink transition-colors">Registry</a>
-                  <a href="https://github.com/eanzhao-os/native-ai-ui/blob/main/LICENSE" target="_blank" rel="noreferrer" className="text-ink-2 hover:text-ink transition-colors">MIT License</a>
+                  <a href="https://github.com/xnoetic/native-ai-ui#the-registry" target="_blank" rel="noreferrer" className="text-ink-2 hover:text-ink transition-colors">Registry</a>
+                  <a href="https://github.com/xnoetic/native-ai-ui/blob/main/LICENSE" target="_blank" rel="noreferrer" className="text-ink-2 hover:text-ink transition-colors">MIT License</a>
                 </div>
               </div>
             </div>
